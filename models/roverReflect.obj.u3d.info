@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="roverReflect.obj" type="Geometry" creationDate="2023-04-09T17:35:46.1783535Z" lastWriteDate="2023-04-09T17:35:48.0827336Z" SHA1Hash="dafd358b79c1c23eb239434e862aa570a8c457d1" />
+        <File file="roverReflect.mtl" type="Materials" creationDate="2023-04-09T17:35:48.3024395Z" lastWriteDate="2023-04-09T17:35:49.2664819Z" SHA1Hash="69c6a60780dca306641385c981e5e54f3c7e5c74" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\roverReflect.mtl_basic_grey" name="basic_grey" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.137583 0.122131 0.12565 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.225" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\newRover.mtl_None" name="None" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.8 0.8 0.8 1" />
+                <Color type="_Ambient" value="0.8 0.8 0.8 1" />
+                <Color type="_SpecColor" value="0.8 0.8 0.8 1" />
+                <Scalar type="_Shininess" value="0.5" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="66472" totalVertices="152809">
+        <Mesh name="roverReflect.obj_Mesh" triangles="66472" vertices="152809">
+            <SubMeshes>
+                <SubMesh triangles="31081" vertices="64997">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                        <SubMeshMaterial index="1" />
+                    </SubMeshMaterials>
+                </SubMesh>
+                <SubMesh triangles="26442" vertices="64997">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="1" />
+                    </SubMeshMaterials>
+                </SubMesh>
+                <SubMesh triangles="8949" vertices="22815">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="1" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>

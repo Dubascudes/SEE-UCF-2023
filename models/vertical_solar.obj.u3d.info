@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="vertical_solar.obj" type="Geometry" creationDate="2023-03-31T06:50:01.4373650Z" lastWriteDate="2023-03-31T06:50:03.5893670Z" SHA1Hash="956b77fc8f5b3bd0f4c49d48fdd8b8f4f6bb8550" />
+        <File file="vertical_solar.mtl" type="Materials" creationDate="2023-03-31T06:49:59.5503660Z" lastWriteDate="2023-03-31T06:50:00.8923638Z" SHA1Hash="f98e42eb8043c7bdbff3db12464a6fe044ace2c6" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Brushed_Copper" name="Brushed_Copper" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Texture type="_MainTex" value="C:/GWC Brushed Copper_BaseColor.jpg" tiling="1 1" offset="0 0" />
+                <Color type="_Color" value="0.5 0.5 0.5 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.25" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Solar_Panel.001" name="Solar_Panel.001" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.8 0.8 0.8 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.36" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_copper_scratched" name="copper_scratched" shaderName="Diffuse">
+            <Attributes>
+                <Transparency value="1" />
+                <Texture type="_MainTex" value="C:/copper scratched_albedo.jpg" tiling="1 1" offset="0 0" />
+                <Color type="_Color" value="0.5 0.5 0.5 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Frozen_white_metal" name="Frozen_white_metal" shaderName="Diffuse">
+            <Attributes>
+                <Transparency value="1" />
+                <Texture type="_MainTex" value="C:/DefaultMaterial_BaseColor.jpg" tiling="1 1" offset="0 0" />
+                <Color type="_Color" value="0.5 0.5 0.5 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Material.001" name="Material.001" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0 0 0 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.1146105" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Material.002" name="Material.002" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.733452 0.8 0 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.25" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Titanium_Brushed" name="Titanium_Brushed" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.501 0.49 0.49 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.4521404" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="12904" totalVertices="6211">
+        <Mesh name="vertical_solar.obj_Mesh" triangles="12904" vertices="6211">
+            <SubMeshes>
+                <SubMesh triangles="12904" vertices="6211">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                        <SubMeshMaterial index="1" />
+                        <SubMeshMaterial index="2" />
+                        <SubMeshMaterial index="3" />
+                        <SubMeshMaterial index="4" />
+                        <SubMeshMaterial index="5" />
+                        <SubMeshMaterial index="6" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>

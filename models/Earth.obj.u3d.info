@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="Earth.obj" type="Geometry" creationDate="2023-03-30T19:41:44.6163654Z" lastWriteDate="2023-03-30T19:41:44.6237162Z" SHA1Hash="52dfd97347b126acddffd41eb4d38bedddd420d1" />
+        <File file="Earth.mtl" type="Materials" creationDate="2023-03-30T19:40:28.3404669Z" lastWriteDate="2023-03-30T19:40:28.3413272Z" SHA1Hash="a3391c2d0a83ad2aa16ad1ab2111c3b746713668" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\Earth.mtl_01___Default" name="01___Default" shaderName="Diffuse">
+            <Attributes>
+                <Transparency value="1" />
+                <Texture type="_MainTex" value="land_ocean_ice_cloud_2048.jpg" tiling="1 1" offset="0 0" />
+                <Color type="_Color" value="0.588235 0.588235 0.588235 1" />
+                <Color type="_SpecColor" value="0 0 0 1" />
+                <Color type="_Ambient" value="0.588235 0.588235 0.588235 1" />
+                <Scalar type="_Shininess" value="0.3" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="50000" totalVertices="25159">
+        <Mesh name="Earth.obj_Mesh" triangles="50000" vertices="25159">
+            <SubMeshes>
+                <SubMesh triangles="50000" vertices="25159">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>

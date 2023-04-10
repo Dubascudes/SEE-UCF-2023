@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="axis.obj" type="Geometry" creationDate="2023-03-30T19:42:40.6017089Z" lastWriteDate="2023-03-30T19:42:40.6027082Z" SHA1Hash="f1bca638868dcdd1569da7e4d3a57474f1205a98" />
+        <File file="axis.mtl" type="Materials" creationDate="2023-03-30T19:40:28.6608970Z" lastWriteDate="2023-03-30T19:40:28.6618911Z" SHA1Hash="96ab745657e5517bc8976cb2d8eacf9eec40c591" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\axis.mtl_wire_086086086" name="wire_086086086" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.3373 0.3373 0.3373 1" />
+                <Color type="_Ambient" value="0.3373 0.3373 0.3373 1" />
+                <Color type="_SpecColor" value="0.35 0.35 0.35 1" />
+                <Scalar type="_Shininess" value="0.32" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\axis.mtl_wire_027177027" name="wire_027177027" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.1059 0.6941 0.1059 1" />
+                <Color type="_Ambient" value="0.1059 0.6941 0.1059 1" />
+                <Color type="_SpecColor" value="0.35 0.35 0.35 1" />
+                <Scalar type="_Shininess" value="0.32" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\axis.mtl_wire_135006006" name="wire_135006006" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.5294 0.0235 0.0235 1" />
+                <Color type="_Ambient" value="0.5294 0.0235 0.0235 1" />
+                <Color type="_SpecColor" value="0.35 0.35 0.35 1" />
+                <Scalar type="_Shininess" value="0.32" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\axis.mtl_wire_000058255" name="wire_000058255" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0 0.2275 1 1" />
+                <Color type="_Ambient" value="0 0.2275 1 1" />
+                <Color type="_SpecColor" value="0.35 0.35 0.35 1" />
+                <Scalar type="_Shininess" value="0.32" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="444" totalVertices="584">
+        <Mesh name="axis.obj_Mesh" triangles="444" vertices="584">
+            <SubMeshes>
+                <SubMesh triangles="444" vertices="584">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                        <SubMeshMaterial index="1" />
+                        <SubMeshMaterial index="2" />
+                        <SubMeshMaterial index="3" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>

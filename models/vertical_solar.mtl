@@ -1,0 +1,77 @@
+# Blender 3.3.1 MTL File: 'vertical_solar.blend'
+# www.blender.org
+
+newmtl Brushed_Copper
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+map_Kd C:/GWC Brushed Copper_BaseColor.jpg
+map_d C:/GWC Brushed Copper_BaseColor.jpg
+map_refl C:/GWC Brushed Copper_Metalness.jpg
+map_Bump -bm 0.300000 C:/GWC Brushed Copper_Normal.jpg
+
+newmtl Frozen_white_metal
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:/DefaultMaterial_BaseColor.jpg
+map_Ns C:/DefaultMaterial_Roughness.jpg
+map_Bump -bm 1.000000 C:/DefaultMaterial_Normal.jpg
+
+newmtl Material.001
+Ns 114.610474
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.002
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.733452 0.800000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Solar_Panel.001
+Ns 360.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Titanium_Brushed
+Ns 452.140350
+Ka 1.000000 1.000000 1.000000
+Kd 0.501000 0.490000 0.490000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl copper_scratched
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:/copper scratched_albedo.jpg
+map_Ns C:/copper scratched_roughness.jpg
+map_refl C:/copper scratched_metallic.jpg
+map_Bump -bm 1.000000 C:/copper scratched_normal.jpg

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="newRover.obj" type="Geometry" creationDate="2023-03-31T06:50:11.8151265Z" lastWriteDate="2023-03-31T06:50:14.8811210Z" SHA1Hash="99861a86c681037b1d49591ca5ecaa9b8f534ce9" />
+        <File file="newRover.mtl" type="Materials" creationDate="2023-03-31T06:50:10.3251403Z" lastWriteDate="2023-03-31T06:50:10.6901230Z" SHA1Hash="69901a6320b5763c9d9af75d6fbf1ff1782887b4" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\newRover.mtl_None" name="None" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.8 0.8 0.8 1" />
+                <Color type="_Ambient" value="0.8 0.8 0.8 1" />
+                <Color type="_SpecColor" value="0.8 0.8 0.8 1" />
+                <Scalar type="_Shininess" value="0.5" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="66472" totalVertices="173813">
+        <Mesh name="newRover.obj_Mesh" triangles="66472" vertices="173813">
+            <SubMeshes>
+                <SubMesh triangles="21723" vertices="64999">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                    </SubMeshMaterials>
+                </SubMesh>
+                <SubMesh triangles="26213" vertices="64998">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                    </SubMeshMaterials>
+                </SubMesh>
+                <SubMesh triangles="18536" vertices="43816">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>

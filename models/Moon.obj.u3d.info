@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="Moon.obj" type="Geometry" creationDate="2023-03-30T19:41:55.4817992Z" lastWriteDate="2023-03-30T19:41:55.4894631Z" SHA1Hash="61e0ca62a5489a4c19532564375955864d4c90ba" />
+        <File file="Moon.mtl" type="Materials" creationDate="2023-03-30T19:40:28.4650315Z" lastWriteDate="2023-03-30T19:40:28.4660764Z" SHA1Hash="1a4c4b375a6df3687b5c6d29bb902b79b558deba" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\Moon.mtl_01___Default" name="01___Default" shaderName="Diffuse">
+            <Attributes>
+                <Transparency value="1" />
+                <Texture type="_MainTex" value="MoonMap.jpg" tiling="1 1" offset="0 0" />
+                <Color type="_Color" value="0.588235 0.588235 0.588235 1" />
+                <Color type="_SpecColor" value="0 0 0 1" />
+                <Color type="_Ambient" value="0.588235 0.588235 0.588235 1" />
+                <Scalar type="_Shininess" value="0.3" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="50000" totalVertices="25159">
+        <Mesh name="Moon.obj_Mesh" triangles="50000" vertices="25159">
+            <SubMeshes>
+                <SubMesh triangles="50000" vertices="25159">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>

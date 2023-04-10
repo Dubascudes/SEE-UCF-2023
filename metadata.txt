@@ -1,0 +1,149 @@
+id="SeeLunarSouthPoleBaseLocalFixed":
+  static_position: (-10904.95664, -7550.94997, -1739036.92673)
+  static_orientation: (0.003640022857714461, 0.001137226493544214, 0.9544939867210565, 0.2982057783860692)
+  static_scale: (1, 1, 1)
+  static_parent: MoonCentricFixed
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+
+id="SeeLunarSouthPoleBaseLocalView":
+  static_position: (0, 0, -2000.0)
+  static_orientation: (1, 0, 0, 0)
+  static_scale: (1, 1, 1)
+  static_parent: SeeLunarSouthPoleBaseLocalFixed
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+id="LunarRover":
+  static_position: (-817587.939286128, -296194.936333636, -1498640.52696795)
+  static_orientation: (-0.79079044533773, 0.554597207736449, 0.148705030888344, -0.212035899134992)
+  static_scale: (1, 1, 1)
+  static_parent: MoonCentricFixed
+  filename="newRover.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 0)
+  scale: (1, 1, 1)
+
+id="NewLunarRover":
+  static_position: (-817587.939286128, -296194.936333636, -1498647.52696795)
+  static_orientation: (-0.79079044533773, 0.554597207736449, 0.148705030888344, -0.212035899134992)
+  static_scale: (1, 1, 1)
+  static_parent: MoonCentricFixed
+  filename="roverReflect.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 0)
+  scale: (1, 1, 1)
+
+id="TestingRover":
+  static_position: (-817587.939286128, -296194.936333636, -1498634.52696795)
+  static_orientation: (-0.79079044533773, 0.554597207736449, 0.148705030888344, -0.212035899134992)
+  static_scale: (1, 1, 1)
+  static_parent: MoonCentricFixed
+  filename="roverReflect2.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 0)
+  scale: (1, 1, 1)
+
+id="SolarPanel":
+  static_position: (-817587.939286128, -296164.936333636, -1498640.52696795)
+  static_orientation: (-0.79079044533773, 0.554597207736449, 0.148705030888344, -0.212035899134992)
+  static_scale: (1, 1, 1)
+  static_parent: MoonCentricFixed
+  filename="vertical_solar.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 0)
+  scale: (1, 1, 1)
+
+id="LunarSouthPoleFixed":
+  static_position: (0, 0, -1737302.69)
+  static_orientation: (0, 0, 0, 1)
+  static_scale: (1, 1, 1)
+  static_parent: MoonCentricFixed
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+
+id="LunarSouthPoleView":
+  static_position: (0, 0, -10000.0)
+  static_orientation: (1, 0, 0, 0)
+  static_scale: (1, 1, 1)
+  static_parent: LunarSouthPoleFixed
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+
+id="MoonCentricFixed":
+    filename="Moon.obj":
+        position: (0, 0, 0)
+        orientation: (0, 0, 0, 1)
+        scale: (1.732, 1.732, 1.732)
+
+
+id="SunCentricInertial":
+  filename="Sun.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (695.5, 695.5, 695.5)
+
+id="SolarSystemBarycentricInertial":
+		scale: (1, 1, 1)
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+id="EarthMoonBarycentricRotating":
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+id="MoonCentricInertial":
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+id="EarthCentricInertial":
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+id="EarthMoonBarycentricInertial":
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
+
+id="EarthCentricFixed":
+    filename="Earth.obj":
+        position: (0, 0, 0)
+        orientation: (0, 0, 0, 1)
+        scale: (6.37810,6.37810,6.37810)
+
+id="EarthMoonL2Rotating":
+    filename="axis.obj":
+    position: (0, 0, 0)
+    orientation: (0, 0, 0, 1)
+    scale: (1, 1, 1)
+
+
+id="AitkenBasinLocalFixed":
+  static_position: (-817582.939286128, -296194.936333636, -1504977.52696795)
+  static_orientation: (-0.79079044533773, 0.554597207736449, 0.148705030888344, -0.212035899134992)
+  static_scale: (1, 1, 1)
+  static_parent: MoonCentricFixed
+  filename="axis.obj":
+  position: (0, 0, 0)
+  orientation: (0, 0, 0, 1)
+  scale: (1, 1, 1)
