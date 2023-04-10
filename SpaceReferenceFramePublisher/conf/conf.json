@@ -1,0 +1,15 @@
+{
+  "asynchronousDelivery" : true,
+  "crcHost" : "localhost",
+  "crcPort" : 8989,
+  "federateName" : "SpaceReferenceFramePublisher",
+  "federateType" : "Environment",
+  "federateRole" : "EARLY",
+  "federationName" : "SEE 2021",
+  "fomDirectory" : "foms",
+  "realtime" : false,
+  "simulationScenarioTimeEphoc" : 25539,
+  "timeConstrained" : true,
+  "timeRegulating" : false,
+  "lookahead": 1000000
+}

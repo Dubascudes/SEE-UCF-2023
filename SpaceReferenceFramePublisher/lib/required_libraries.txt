@@ -1,0 +1,10 @@
+// Pitch RTI libraries
+booster1516.jar
+prti.jar
+prti1516e.jar
+prticore.jar
+
+//other libraries
+jatcore.jar
+jatcoreNOSA.jar
+skf1.5.0.jar
