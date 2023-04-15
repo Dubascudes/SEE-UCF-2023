@@ -13,7 +13,7 @@ import skf.coder.HLAbooleanCoder;
 import java.util.ArrayList;
 
 /**
- * Created by Khris on 1/18/2017.
+ * Created by Louis
  */
 @ObjectClass(name = "PhysicalEntity.SolarPanel")
 public class SolarPanelState extends SimpleChargeableEntityState {
