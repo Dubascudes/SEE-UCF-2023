@@ -12,7 +12,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by Hunter on 2/12/2017.
+ * Created by Louis
  */
 public class SolarPanelMain extends SimulationEntityMain {
 
