@@ -1,15 +1,13 @@
 package interaction;
 
 import coder.HLAGridIndexCoder;
+import skf.coder.HLAbooleanCoder;
 import skf.coder.HLAfloat64LECoder;
 import skf.coder.HLAinteger64LECoder;
-import skf.coder.HLAbooleanCoder;
 import skf.model.interaction.annotations.Parameter;
 import skf.model.interaction.annotations.InteractionClass;
 import state.SimulationEntityState.GridIndex;
-/*
-* Created by Louis
-*/
+
 @InteractionClass(name="PanelStatusRequest")
 public class PanelStatusRequest extends Interaction {
     @Parameter(name="fromHLAId", coder= HLAinteger64LECoder.class)
@@ -25,10 +23,10 @@ public class PanelStatusRequest extends Interaction {
     private Double time = null;
     
     @Parameter(name="elecOutput", coder=HLAfloat64LECoder.class)
-    private Double output = null;
+    private Double output = 0.0;
     
     @Parameter(name="sunlight", coder=HLAbooleanCoder.class)
-    private Boolean isReceiving = null;
+    private Boolean receiving = false;
     
     public PanelStatusRequest()
     {
@@ -57,20 +55,20 @@ public class PanelStatusRequest extends Interaction {
         return this.time;
     }
     
+    public void setReceiving(Boolean sunlight) {
+    	this.receiving = sunlight;
+    }
+    
+    public Boolean isReceiving() {
+    	return this.receiving;
+    }
+    
     public void setOutput(Double output) {
     	this.output = output;
     }
     
-    public Double getOutput() {
+    public Double isOutput() {
     	return this.output;
-    }
-    
-    public void setSunlight(Boolean sunlight) {
-    	this.isReceiving = sunlight;
-    }
-    
-    public Boolean getSunlight() {
-    	return this.isReceiving;
     }
 }
 

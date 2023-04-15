@@ -1,52 +1,22 @@
 package state;
 
-import coder.HLAGridIndexCoder;
-import coder.SpaceTimeCoordinateStateCoder;
-import model.*;
 import org.apache.log4j.Logger;
-import skf.coder.HLAasciiStringCoder;
-import skf.coder.HLAfloat64LECoder;
+
+import coder.SpaceTimeCoordinateStateCoder;
+import model.AngularVelocity;
+import model.AttitudeQuaternion;
+import model.HLARotationalState;
+import model.HLATranslationalState;
+import model.Position;
+import model.SpaceTimeCoordinateState;
+import model.Velocity;
 import skf.coder.HLAunicodeStringCoder;
 import skf.model.object.annotations.Attribute;
 import skf.model.object.annotations.ObjectClass;
-import skf.coder.HLAbooleanCoder;
-import java.util.ArrayList;
 
-/**
- * Created by Louis
- */
-@ObjectClass(name = "PhysicalEntity.SolarPanel")
-public class SolarPanelState extends SimpleChargeableEntityState {
-    final static Logger logger = Logger.getLogger(SolarPanelState.class);
-
-    public SolarPanelState() {
-        super(-1L, 0,0,0,0,0,0,0);
-    }
-
-    public enum PanelState {
-    		Standby,
-            HandleCharge
-    }
-
-    public static class ProspectingMapEntry {
-        @Attribute(name = "kwhElectricalOutput", coder = HLAfloat64LECoder.class)
-        public double kwhElectricalOutput = 0;
-        
-        @Attribute(name = "mylarSolarInput", coder = HLAbooleanCoder.class)
-        public Boolean mylarSolarInput = null;
-
-    }
-
-    public double getElectricalOutput() {
-        return kwhElectricalOutput;
-    }
-
-    public void setkwhElectricalOutput(double output) {
-        this.kwhElectricalOutput = output;
-    }
-    
-    @Attribute(name="kwhElectricalOutput", coder=HLAfloat64LECoder.class)
-    private double kwhElectricalOutput = 10000.00;
+@ObjectClass(name= "PhysicalEntity.SolarPanel")
+public class SolarPanelState extends SimulationEntityState {
+    final static Logger logger = Logger.getLogger(TowerState.class);
 
     @Attribute(name = "parent_reference_frame", coder = HLAunicodeStringCoder.class)
     private String parentReferenceFrame = null;
@@ -54,11 +24,20 @@ public class SolarPanelState extends SimpleChargeableEntityState {
     @Attribute(name="state", coder= SpaceTimeCoordinateStateCoder.class)
     private SpaceTimeCoordinateState state = null;
 
+    public SolarPanelState(long identifier, int gridX, int gridY,
+            int isruGridX, int isruGridY, double movementSpeed,
+            double gridCellSize, int safeGridX, int safeGridY)
+    {
+        super(identifier, gridX, gridY, movementSpeed, gridCellSize);
 
-    public SolarPanelState(long identifier, int gridX, int gridY, double capacity) {
-        super(identifier, gridX, gridY, capacity);
-        prospectingMap = new ArrayList<>();
-        setParentReferenceFrame("AitkenBasinLocalFixed");
+        setParentReferenceFrame("SeeLunarSouthPoleBaseLocalView");
+
+
+        this.position[0] = 1850;
+        this.position[1] = -10;
+        this.position[2] = -591;
+        this.rotationalQuat.set(0.0f, 0.7071068f, 0.7071068f, 0.0f);
+
     }
 
     public String getParentReferenceFrame() {
@@ -75,7 +54,7 @@ public class SolarPanelState extends SimpleChargeableEntityState {
         HLARotationalState rotationalState = new HLARotationalState();
 
         translationalState.setPosition(new Position(position[0], position[1], position[2]));
-        translationalState.setVelocity(new Velocity(0,0,0));
+        translationalState.setVelocity(new Velocity(10,0,0));
 
         rotationalState.setAttitudeQuaternion(new AttitudeQuaternion(rotationalQuat.w, rotationalQuat.x, rotationalQuat.y, rotationalQuat.z));
         rotationalState.setAngularVelocity(new AngularVelocity(0,0,0));
