@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectModel xsi:schemaLocation="http://standards.ieee.org/IEEE1516-2010 C:\Users\Louis\Desktop\hla\1516.2-2010_downloads\IEEE1516-DIF-2010.xsd" xmlns="http://standards.ieee.org/IEEE1516-2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelIdentification>
+        <name>Solar Tower</name>
+        <type>FOM</type>
+        <version>1.0</version>
+        <securityClassification>unclassified</securityClassification>
+        <purpose></purpose>
+        <applicationDomain></applicationDomain>
+        <description>Converts solar to electricity</description>
+        <useLimitation></useLimitation>
+        <other></other>
+    </modelIdentification>
+    <objects>
+        <objectClass>
+            <name>HLAobjectRoot</name>
+            <objectClass>
+                <name>PhysicalEntity</name>
+                <objectClass>
+                    <name>SolarTower</name>
+                    <sharing>PublishSubscribe</sharing>
+                    <semantics></semantics>
+                    <attribute>
+                    	<name>mylarSolarInput</name>
+                    	<dataType>HLAbooleanCoder</dataType>
+                    	<updateType>Conditional</updateType>
+                    	<updateCondition>Updates when Mylar Sheet reflects light into panel</updateCondition>
+                    	<ownership>NoTransfer</ownership>
+                    	<sharing>PublishSubscribe</sharing>
+                    	<transportation>HLAreliable</transportation>
+                    	<order>Receive</order>
+                    	<semantics>Sunlight from reflector</semantics>
+                    </attribute>
+                   <attribute>
+                    	<name>kwhElectricalOutput</name>
+                    	<dataType>HLAfloat64LE</dataType>
+                    	<updateType>Conditional</updateType>
+                    	<updateCondition>Updates when Mylar Sheet reflects light into panel</updateCondition>
+                    	<ownership>NoTransfer</ownership>
+                    	<sharing>PublishSubscribe</sharing>
+                    	<transportation>HLAreliable</transportation>
+                    	<order>Receive</order>
+                    </attribute> 	                                                                                                
+                </objectClass>
+            </objectClass>
+        </objectClass>
+    </objects>
+    <interactions>
+        <interactionClass>
+            <name>HLAinteractionRoot</name>
+            <interactionClass>
+                <name>SolarStatusRequest</name>
+                <sharing>PublishSubscribe</sharing>
+                <transportation>HLAreliable</transportation>
+                <order>Receive</order>
+                <semantics></semantics>
+                <parameter>
+                    <name>fromHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+                <parameter>
+                    <name>toHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+                <parameter>
+                    <name>position</name>
+                    <dataType>GridIndex</dataType>
+                </parameter>
+	            <parameter>
+	                <name>time</name>
+	                <dataType>double</dataType>
+	            </parameter>
+	            <parameter>
+	                <name>elecOutput</name>
+	                <dataType>double</dataType>
+	            </parameter>
+	            <parameter>
+	                <name>sunlight</name>
+	                <dataType>Boolean</dataType>
+	            </parameter>
+            </interactionClass>
+        </interactionClass>
+    </interactions>
+    <dataTypes>
+        <simpleDataTypes/>
+        <enumeratedDataTypes/>
+        <arrayDataTypes/>
+        <fixedRecordDataTypes/>
+        <variantRecordDataTypes/>
+    </dataTypes>
+    <notes/>
+</objectModel>
