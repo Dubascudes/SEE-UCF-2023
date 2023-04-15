@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectModel xsi:schemaLocation="http://standards.ieee.org/IEEE1516-2010 http://standards.ieee.org/downloads/1516/1516.2-2010/IEEE1516-DIF-2010.xsd" xmlns="http://standards.ieee.org/IEEE1516-2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelIdentification>
+        <name>SimulationEntity</name>
+        <type>FOM</type>
+        <version>1.0</version>
+        <securityClassification>unclassified</securityClassification>
+        <purpose></purpose>
+        <applicationDomain></applicationDomain>
+        <description>Reflector Rover</description>
+        <useLimitation></useLimitation>
+        <other></other>
+    </modelIdentification>
+    <objects>
+        <objectClass>
+            <name>HLAobjectRoot</name>
+            <objectClass>
+                <name>PhysicalEntity</name>
+                <objectClass>
+                    <name>ReflectorRover</name>
+                    <sharing>PublishSubscribe</sharing>
+                    <semantics></semantics>
+
+                    <attribute>
+                        <name>sunlightPower</name>
+                        <dataType>Double</dataType>
+                        <updateType>Conditional</updateType>
+                        <updateCondition>Updates when reflection process stops</updateCondition>
+                        <ownership>NoTransfer</ownership>
+                        <sharing>PublishSubscribe</sharing>
+                        <transportation>HLAreliable</transportation>
+                        <order>Receive</order>
+                        <semantics>The amount of power in the form of sunlight transferred to the focus area</semantics>
+                    </attribute>
+
+                    <attribute>
+                        <name>reflectorIndex</name>
+                        <dataType>GridIndex</dataType>
+                        <updateType>Conditional</updateType>
+                        <updateCondition>Updates when a grid to reflect sunlight towards is selected</updateCondition>
+                        <ownership>NoTransfer</ownership>
+                        <sharing>PublishSubscribe</sharing>
+                        <transportation>HLAreliable</transportation>
+                        <order>Receive</order>
+                        <semantics>Starting Location of Reflector Rover</semantics>
+                    </attribute>
+
+                    <attribute>
+                        <name>reflectorRoverState</name>
+                        <dataType>String</dataType>
+                        <updateType>Conditional</updateType>
+                        <ownership>NoTransfer</ownership>
+                        <sharing>PublishSubscribe</sharing>
+                        <transportation>HLAreliable</transportation>
+                        <order>Receive</order>
+                    </attribute>
+
+                </objectClass>
+            </objectClass>
+        </objectClass>
+    </objects>
+    <interactions>
+        <interactionClass>
+            <name>HLAinteractionRoot</name>
+
+            <interactionClass>
+                <name>ReflectorLocationRequest</name>
+                <sharing>PublishSubscribe</sharing>
+                <transportation>HLAreliable</transportation>
+                <order>Receive</order>
+                <semantics></semantics>
+                <parameter>
+                    <name>fromHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+                <parameter>
+                    <name>toHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+            </interactionClass>
+
+            <interactionClass>
+                <name>ReflectorLocationResponse</name>
+                <sharing>PublishSubscribe</sharing>
+                <transportation>HLAreliable</transportation>
+                <order>Receive</order>
+                <semantics></semantics>
+                <parameter>
+                    <name>fromHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+                <parameter>
+                    <name>toHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+                <parameter>
+                    <name>reflectorSite</name>
+                    <dataType>GridIndex</dataType>
+                </parameter>
+            </interactionClass>
+
+            <interactionClass>
+                <name>ReflectorInteractionRequest</name>
+                <sharing>PublishSubscribe</sharing>
+                <transportation>HLAreliable</transportation>
+                <order>Receive</order>
+                <semantics></semantics>
+                <parameter>
+                    <name>fromHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+                <parameter>
+                    <name>toHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+            </interactionClass>
+
+            <interactionClass>
+                <name>ReflectorInteractionResponse</name>
+                <sharing>PublishSubscribe</sharing>
+                <transportation>HLAreliable</transportation>
+                <order>Receive</order>
+                <semantics></semantics>
+                <parameter>
+                    <name>fromHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+                <parameter>
+                    <name>toHLAId</name>
+                    <dataType>long</dataType>
+                </parameter>
+                <parameter>
+                    <name>sunlight</name>
+                    <dataType>boolean</dataType>
+                </parameter>
+            </interactionClass>
+
+        </interactionClass>
+    </interactions>
+    <dataTypes>
+        <simpleDataTypes/>
+        <enumeratedDataTypes/>
+        <arrayDataTypes/>
+        <fixedRecordDataTypes/>
+        <variantRecordDataTypes/>
+    </dataTypes>
+    <notes/>
+</objectModel>
