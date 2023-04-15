@@ -19,28 +19,7 @@
                 <objectClass>
                     <name>SolarTower</name>
                     <sharing>PublishSubscribe</sharing>
-                    <semantics></semantics>
-                    <attribute>
-                    	<name>mylarSolarInput</name>
-                    	<dataType>HLAbooleanCoder</dataType>
-                    	<updateType>Conditional</updateType>
-                    	<updateCondition>Updates when Mylar Sheet reflects light into panel</updateCondition>
-                    	<ownership>NoTransfer</ownership>
-                    	<sharing>PublishSubscribe</sharing>
-                    	<transportation>HLAreliable</transportation>
-                    	<order>Receive</order>
-                    	<semantics>Sunlight from reflector</semantics>
-                    </attribute>
-                   <attribute>
-                    	<name>kwhElectricalOutput</name>
-                    	<dataType>HLAfloat64LE</dataType>
-                    	<updateType>Conditional</updateType>
-                    	<updateCondition>Updates when Mylar Sheet reflects light into panel</updateCondition>
-                    	<ownership>NoTransfer</ownership>
-                    	<sharing>PublishSubscribe</sharing>
-                    	<transportation>HLAreliable</transportation>
-                    	<order>Receive</order>
-                    </attribute> 	                                                                                                
+                    <semantics></semantics>                                                                                                
                 </objectClass>
             </objectClass>
         </objectClass>
