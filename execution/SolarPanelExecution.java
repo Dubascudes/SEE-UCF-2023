@@ -14,7 +14,7 @@ import state.ProspectingRoverState;
 import state.SimulationEntityState;
 
 /**
- * Created by Louis on 4/14/2023.
+ * Created by Louis
  */
 public class SolarPanelExecution extends SimulationEntityExecution {
 
