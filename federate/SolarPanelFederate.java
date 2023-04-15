@@ -17,7 +17,7 @@ import interaction.ProspectingInteractionRequest;
 import interaction.ProspectingInteractionResponse;
 
 /**
- * Created by Khris on 2/17/2017.
+ * Created by Louis
  */
 public class SolarPanelFederate extends SimulationEntityFederate {
 

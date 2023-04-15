@@ -7,7 +7,9 @@ import skf.coder.HLAinteger64LECoder;
 import skf.model.interaction.annotations.Parameter;
 import skf.model.interaction.annotations.InteractionClass;
 import state.SimulationEntityState.GridIndex;
-
+/*
+* Created by Louis
+*/
 @InteractionClass(name="PanelStatusRequest")
 public class PanelStatusRequest extends Interaction {
     @Parameter(name="fromHLAId", coder= HLAinteger64LECoder.class)
