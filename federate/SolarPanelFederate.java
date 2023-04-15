@@ -12,11 +12,12 @@ import state.ProspectingRoverState;
 import state.SolarPanelState;
 import interaction.ProspectingLocationRequest;
 import interaction.ProspectingLocationResponse;
+import interaction.TowerStatusRequest;
 import interaction.ProspectingInteractionRequest;
 import interaction.ProspectingInteractionResponse;
 
 /**
- * Created by Louis
+ * Created by Khris on 2/17/2017.
  */
 public class SolarPanelFederate extends SimulationEntityFederate {
 
@@ -28,7 +29,7 @@ public class SolarPanelFederate extends SimulationEntityFederate {
 
     @Override
     protected SimulationEntityExecution initializeExecution() {
-        SolarPanelState panelState = new SolarPanelState(getRandomHLAId(), 45, 45, 35, 35, 100.0, 2.0, 5.0);
+        SolarPanelState panelState = new SolarPanelState(getRandomHLAId(), 20, 20, 7, 19, 100.0, 5.0, 5, 60);
         execution = new SolarPanelExecution(panelState);
         return execution;
     }
@@ -48,7 +49,7 @@ public class SolarPanelFederate extends SimulationEntityFederate {
         
         PanelStatusRequest response = new PanelStatusRequest();
 		response.setOutput(0.00);
-		logger.debug("Received charge amount response" + response.getOutput());
+		logger.debug("Received charge amount response" + response.isOutput());
 		
         try {
             super.publishInteraction(panelStatusRequest);
@@ -79,11 +80,11 @@ public class SolarPanelFederate extends SimulationEntityFederate {
         	PanelStatusRequest response = (PanelStatusRequest) interaction;
         	logger.debug("Received Panel Location Response " + response.getPosition());
         	//if statement here to determine if we are acquiring sunlight
-        	//can change getAmount method to functiont to calculate actual electrical output based on panel efficiency and dimensions
-        	response.setSunlight(true);
-        	if(response.getSunlight() == true) {
+        	//can change getAmount method to function to calculate actual electrical output based on panel efficiency and dimensions
+        	response.setReceiving(true);
+        	if(response.isReceiving() == true) {
         		response.setOutput(10000.00);
-        		logger.debug("Received charge amount response" + response.getOutput());
+        		logger.debug("Received charge amount response" + response.isOutput());
         	}
         }
     }
@@ -96,20 +97,21 @@ public class SolarPanelFederate extends SimulationEntityFederate {
             super.updateElement(execution.simulationEntityState);
 
             for(Interaction interaction : execution.interactions) {
+                // If statements to check every instance of an interaction
+                if (interaction instanceof PanelStatusRequest){
+                    PanelStatusRequest r = (PanelStatusRequest) interaction;
+                    panelStatusRequest.setFromHLAId(r.getFromHLAId());
+                    panelStatusRequest.setToHLAId(r.getToHLAId());
+                    panelStatusRequest.setPosition(r.getPosition());
+                    panelStatusRequest.setTime(getSimulationTime());
 
-                if(interaction instanceof PanelStatusRequest) {
-                	PanelStatusRequest request = (PanelStatusRequest) interaction;
-
-                    logger.debug("Sending Panel Charge Request " + request.getOutput());
+                    logger.debug("Sending PanelStatusRequest ID " + panelStatusRequest.getFromHLAId());
                     super.updateInteraction(panelStatusRequest);
                     execution.interactions.remove(interaction);
-
                 }
             }
-
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }
