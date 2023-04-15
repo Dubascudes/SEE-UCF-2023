@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="vertical_solar.obj" type="Geometry" creationDate="2023-04-14T20:03:48.9203729Z" lastWriteDate="2023-04-14T20:03:05.0421076Z" SHA1Hash="390ad9ea5c7c12a463df90b9b2d141b1e4b00680" />
+        <File file="vertical_solar.mtl" type="Materials" creationDate="2023-04-14T20:03:41.4211318Z" lastWriteDate="2023-04-14T20:03:03.9129871Z" SHA1Hash="54cb8827f4d0aaaddb17837c91d6a111360b85d2" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Material.001" name="Material.001" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.326375 0.222346 0.024993 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.1146105" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Blue_Metal" name="Blue_Metal" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.012431 0.442186 0.8 1" />
+                <Color type="_Ambient" value="0.626943 0.626943 0.626943 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.25" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Frozen_white_metal" name="Frozen_white_metal" shaderName="Diffuse">
+            <Attributes>
+                <Transparency value="1" />
+                <Texture type="_MainTex" value="C:/DefaultMaterial_BaseColor.jpg" tiling="1 1" offset="0 0" />
+                <Color type="_Color" value="0.5 0.5 0.5 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Wire" name="Wire" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.008984 0.003919 0.001488 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.25" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Material.002" name="Material.002" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.733452 0.8 0 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.25" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="13000" totalVertices="6347">
+        <Mesh name="vertical_solar.obj_Mesh" triangles="13000" vertices="6347">
+            <SubMeshes>
+                <SubMesh triangles="13000" vertices="6347">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                        <SubMeshMaterial index="1" />
+                        <SubMeshMaterial index="2" />
+                        <SubMeshMaterial index="3" />
+                        <SubMeshMaterial index="4" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>

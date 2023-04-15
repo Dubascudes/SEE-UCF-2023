@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SimulationConfig>
+   <Simulation author="SEE 2023" description="Simulation SEE 2023" name="SEE 2023"/>
+
+   <Terrain id="AitkenBasin" parent="AitkenBasinLocalFixed" pos="0 0 0" quat="0 0 0 1" source="Terrain/AitkenBasinDem.tif" terrainOffset="0.7628786780705 0.7482580486129 0" tiling="1226.2 2672.78"/>
+   <Terrain id="SouthPole" parent="LunarSouthPoleFixed" pos="0 0 0" quat="0 0 0 1" source="Terrain/LRO_LOLA_DEM_SPolar875_10m.tif" terrainOffset="0.7628786780705 0.7482580486129 0" tiling="1226.2 2672.78"/>
+
+   <ModelConfig source="metadata.txt"/>
+   <ModelFiles path="models/"/>
+   <Light name="Sun Light" parent="SunCentricInertial" type="point"/>
+
+   <Telemetries>
+       <Telemetry format="MPC2" source="telemetry/test.xml" timeScale="1" type="file"/>
+   </Telemetries>
+
+   <ObjectsOfInterest>
+       <Object id="SunCentricInertial" name="Sun"/>
+       <Object id="MoonCentricFixed" name="Moon"/>
+       <Object id="EarthCentricFixed" name="Earth"/>
+       <Object id="AitkenBasinLocalFixed" name="Aitken Basin"/>
+       <Object id="LunarSouthPoleFixed" name="LunarSouthPoleFixed"/>
+       <Object id="LunarSouthPoleView" name="LunarSouthPoleView"/>
+       <Object id="SeeLunarSouthPoleBaseLocalFixed" name="SeeSouthPoleLocalFixed"/>
+       <Object id="SeeLunarSouthPoleBaseLocalView" name="SeeSouthPoleLocalView"/>
+       <Object id="LunarRover" name="LunarRover"/>
+       <Object id="SolarPanel" name="SolarPanel"/>
+
+   </ObjectsOfInterest>
+</SimulationConfig>

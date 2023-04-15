@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="vertical_solar_new.obj" type="Geometry" creationDate="2023-04-14T19:36:01.5857724Z" lastWriteDate="2023-04-14T19:36:01.9860501Z" SHA1Hash="71d660be02f3599204401fa8cb62065bde5ecb06" />
+        <File file="vertical_solar.mtl" type="Materials" creationDate="2023-03-31T06:49:59.5503660Z" lastWriteDate="2023-03-31T06:50:00.8923638Z" SHA1Hash="f98e42eb8043c7bdbff3db12464a6fe044ace2c6" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Material.001" name="Material.001" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0 0 0 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.1146105" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Frozen_white_metal" name="Frozen_white_metal" shaderName="Diffuse">
+            <Attributes>
+                <Transparency value="1" />
+                <Texture type="_MainTex" value="C:/DefaultMaterial_BaseColor.jpg" tiling="1 1" offset="0 0" />
+                <Color type="_Color" value="0.5 0.5 0.5 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\vertical_solar.mtl_Material.002" name="Material.002" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.733452 0.8 0 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.25" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="12936" totalVertices="6275">
+        <Mesh name="vertical_solar_new.obj_Mesh" triangles="12936" vertices="6275">
+            <SubMeshes>
+                <SubMesh triangles="12936" vertices="6275">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                        <SubMeshMaterial index="1" />
+                        <SubMeshMaterial index="2" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>

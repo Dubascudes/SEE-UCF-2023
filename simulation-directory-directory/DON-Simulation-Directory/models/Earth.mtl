@@ -1,0 +1,25 @@
+#
+# Wavefront material file: 'Earth.mtl'
+#
+# Converted by the PolyTrans geometry converter from Okino Computer Graphics, Inc.
+# Date/time of export: 03/21/2014 17:04:45
+#
+# Bounding box of geometry = (-999921,-1e+006,-1e+006) to (999921,1e+006,1e+006).
+
+newmtl default
+	Ns 32
+	d 1
+	illum 2
+	Kd 0.4 0.4 0.4
+	Ks 0.7 0.7 0.7
+	Ka 0.3 0.3 0.3
+
+newmtl 01___Default
+	Ns 3
+	d 1
+	illum 2
+	Kd 0.588235 0.588235 0.588235
+	Ks 0 0 0
+	Ka 0.588235 0.588235 0.588235
+	map_Kd land_ocean_ice_cloud_2048.jpg
+

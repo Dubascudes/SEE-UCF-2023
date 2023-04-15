@@ -1,0 +1,2280 @@
+<?xml version="1.0"?>
+<mpc>
+    <time value="52296.0">
+
+        
+        <object id="MoonCentricInertial">
+            <pos>2.2354757918580627E8 2.7297166921001434E8 9.366382628511047E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476331114832628 -0.19888913416098256 0.8950451743095658 0.3900672113123914</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152766048776913E8 3.193487591677262E8 1.0957703702225134E8</pos>
+            <quat>-0.13905496862890998 0.07666757435797604 -0.43351205214455146 0.8870474053775799</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.116069036776391E-5 -7.42649775516943E-4 -0.051478191809130866 0.9986738409003929</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989442651728734E11 -6.860026112463748E10 -2.9762704714081314E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749643.780883789 -3357561.9800109863 -1152068.6485443115</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.306791408266519E11 1.64298795616047E11 7.182116119397551E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362350254083997E8 -2.4254953515918653E7 -3.451935117907555E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905496862890998 0.07666757435797604 -0.43351205214455146 0.8870474053775799</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52297.0">
+       
+        <object id="MoonCentricInertial">
+            <pos>2.2354678163619995E8 2.729723265818176E8 9.366403010894012E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476357608681422 -0.19888902232752392 0.8950446550079251 0.390068402345436</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152672743681225E8 3.193495282250804E8 1.095772754751548E8</pos>
+            <quat>-0.13905485868606077 0.07666777446420692 -0.4335133303350658 0.8870467806470554</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.118776944637422E-5 -7.426475465207794E-4 -0.0515146039837458 0.9986719633128169</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989441218149597E11 -6.860028492887746E10 -2.9762715033741043E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749633.970977783 -3357570.065711975 -1152071.155582428</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067912214796547E11 1.642988102611563E11 7.18211684153217E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836235079379044E8 -2.4254943951668527E7 -3.451934718765954E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905485868606077 0.07666777446420692 -0.4335133303350658 0.8870467806470554</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52298.0">
+
+        
+
+        <object id="MoonCentricInertial">
+            <pos>2.2354598405274963E8 2.7297298397787476E8 9.366423394023132E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476384103583828 -0.1988889104892017 0.8950441356837524 0.3900695934258326</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152579434626138E8 3.193502973108091E8 1.0957751393678752E8</pos>
+            <quat>-0.1390547487385442 0.07666797457827615 -0.433514608575679 0.8870461558897602</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.121484846082166E-5 -7.42645316535838E-4 -0.051551016112762034 0.9986700843964527</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.298943978451227E11 -6.8600308734072464E10 -2.97627253538148E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749624.160675049 -3357578.1517181396 -1152073.6627159119</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067910346852596E11 1.6429882490685294E11 7.182117563695761E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362351333518577E8 -2.425493438703349E7 -3.451934319608288E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.1390547487385442 0.07666797457827615 -0.433514608575679 0.8870461558897602</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+    </time>
+    <time value="52299.0">
+
+       
+
+        <object id="MoonCentricInertial">
+            <pos>2.2354518649960327E8 2.7297364134532166E8 9.366443776256943E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.0847641059740275 -0.19888879865503695 0.8950436163789366 0.3900707844575075</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152486129116306E8 3.1935106636306673E8 1.0957775238794602E8</pos>
+            <quat>-0.1390546387951875 0.07666817468406284 -0.4335158867635908 0.8870455311559444</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.124192739396172E-5 -7.426430855635273E-4 -0.051587428173236534 0.9986682041524827</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989438350932114E11 -6.860033253830708E10 -2.97627356734722E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749614.350753784 -3357586.2373580933 -1152076.1697425842</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067908478983636E11 1.6429883955195822E11 7.182118285830211E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836235187322497E8 -2.4254924822783142E7 -3.4519339204666756E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.1390546387951875 0.07666817468406284 -0.4335158867635908 0.8870455311559444</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+    </time>
+    <time value="52300.0">
+        <object id="MoonCentricInertial">
+            <pos>2.235443889447174E8 2.729742987105942E8 9.366464158416748E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476437091202224 -0.1988886868205385 0.8950430970726218 0.39007197548829414</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152392823402965E8 3.193518354127806E8 1.0957799083823876E8</pos>
+            <quat>-0.13905452885158112 0.07666837478962818 -0.4335171649501751 0.8870449064204949</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.126900622874983E-5 -7.426408536052528E-4 -0.05162384014224869 0.998666322582092</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989436917351447E11 -6.8600356342539055E10 -2.976274599312844E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749604.540802002 -3357594.322982788 -1152078.6767539978</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067906611114517E11 1.6429885419706152E11 7.182119007964572E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836235241293134E8 -2.4254915258532666E7 -3.451933521325059E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905452885158112 0.07666837478962818 -0.4335171649501751 0.8870449064204949</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+    <time value="52301.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2354359138807678E8 2.7297495607369995E8 9.366484540501785E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476463584991292 -0.1988885749856677 0.8950425777646306 0.39007316651859986</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152299517484337E8 3.193526044599596E8 1.0957822928765678E8</pos>
+            <quat>-0.13905441890771944 0.07666857489496293 -0.43351844313545235 0.8870442816834037</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.129608499927523E-5 -7.426386206582069E-4 -0.05166025206552798 0.9986644396829173</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989435483770271E11 -6.86003801467683E10 -2.9762756312783516E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749594.7308044434 -3357602.408554077 -1152081.183757782</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067904743245242E11 1.6429886884216293E11 7.182119730098848E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362352952637696E8 -2.4254905694282085E7 -3.451933122183434E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905441890771944 0.07666857489496293 -0.43351844313545235 0.8870442816834037</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+    </time>
+    <time value="52302.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2354279382966614E8 2.729756134346161E8 9.366504922512817E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476490078769945 -0.19888846315042458 0.8950420584549632 0.3900743575484242</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152206211358637E8 3.193533735045769E8 1.0957846773620902E8</pos>
+            <quat>-0.13905430896360663 0.07666877500008708 -0.4335197213194197 0.8870436569446696</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.132316367136849E-5 -7.426363867252045E-4 -0.05169666389723708 0.998662555457329</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989434050188585E11 -6.860040395099488E10 -2.976276663243743E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749584.9208068848 -3357610.4941329956 -1152083.6907539368</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067902875375807E11 1.642988834872622E11 7.18212045223303E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362353492344046E8 -2.42548961300314E7 -3.4519327230418056E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+     
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905430896360663 0.07666877500008708 -0.4335197213194197 0.8870436569446696</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+    </time>
+    <time value="52303.0">
+        <object id="MoonCentricInertial">
+            <pos>2.235419962694702E8 2.729762707933655E8 9.3665253044487E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476516572524624 -0.19888835131486696 0.8950415391438857 0.3900755485771567</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152112905024076E8 3.193541425466594E8 1.0957870618388207E8</pos>
+            <quat>-0.13905419901923458 0.07666897510498107 -0.433520999502109 0.8870430322042799</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.135024227903548E-5 -7.426341518034413E-4 -0.051733075683105256 0.9986606699029609</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989432616606387E11 -6.860042775521879E10 -2.9762776952090187E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749575.1107940674 -3357618.579673767 -1152086.1977424622</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067901007506215E11 1.6429889813235956E11 7.182121174367133E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362354032050353E8 -2.4254886565780587E7 -3.45193232390017E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905419901923458 0.07666897510498107 -0.433520999502109 0.8870430322042799</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52304.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2354119870755005E8 2.729769281499405E8 9.366545686310959E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476543066277945 -0.19888823947889853 0.8950410198309544 0.3900767396058153</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6152019598487797E8 3.193549115861981E8 1.0957894463069382E8</pos>
+            <quat>-0.13905408907461636 0.07666917520965555 -0.4335222776834565 0.8870424074622631</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.137732080529538E-5 -7.426319158943181E-4 -0.0517694874002231 0.9986587830209978</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.298943118302368E11 -6.860045155944002E10 -2.976278727174178E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749565.3007507324 -3357626.6651763916 -1152088.7047157288</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067899139636461E11 1.6429891277745483E11 7.182121896501144E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362354571756643E8 -2.425487700152967E7 -3.4519319247585304E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905408907461636 0.07666917520965555 -0.4335222776834565 0.8870424074622631</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+    </time>
+    <time value="52305.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2354040111177063E8 2.7297758553076935E8 9.366566068918228E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476569561057729 -0.1988881276381819 0.8950405004960229 0.3900779306806041</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6151926287990332E8 3.1935568065411127E8 1.0957918308622141E8</pos>
+            <quat>-0.1390539791253197 0.07666937532215913 -0.4335235559149165 0.8870417826934711</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.140439923300704E-5 -7.426296789992508E-4 -0.051805899025614506 0.9986568948126315</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989429749382785E11 -6.860047536461626E10 -2.9762797591807392E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749555.4902801514 -3357634.7509918213 -1152091.2117843628</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067897271691397E11 1.6429892742313742E11 7.18212261866412E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362355111484635E8 -2.4254867436893843E7 -3.451931525600825E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.1390539791253197 0.07666937532215913 -0.4335235559149165 0.8870417826934711</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52306.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2353960354629517E8 2.729782428829956E8 9.366586450631332E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.0847659605477666 -0.19888801580152662 0.8950399811800049 0.3900791217076895</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.615183298103812E8 3.1935644968856233E8 1.095794215312882E8</pos>
+            <quat>-0.13905386918019016 0.07666957542639037 -0.433524834093682 0.8870411579481535</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.143147759624795E-5 -7.426274411154247E-4 -0.05184231060503082 0.99865500527549</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989428315799062E11 -6.860049916883214E10 -2.9762807911456657E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749545.680206299 -3357642.8364486694 -1152093.7187423706</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067895403821329E11 1.6429894206822876E11 7.182123340797957E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362355651190895E8 -2.4254857872642696E7 -3.451931126459176E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905386918019016 0.07666957542639037 -0.433524834093682 0.8870411579481535</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+    </time>
+    <time value="52307.0">
+        <object id="MoonCentricInertial">
+            <pos>2.235388059790802E8 2.7297890023303986E8 9.366606832269669E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476622548485174 -0.1988879039644989 0.8950394618623108 0.39008031273429356</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6151739673882404E8 3.193572187204607E8 1.0957965997548029E8</pos>
+            <quat>-0.1390537592348073 0.07666977553039397 -0.4335261122711138 0.8870405332012067</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.145855587787405E-5 -7.426252022442539E-4 -0.05187872211552928 0.9986531144107622</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989426882214828E11 -6.860052297304527E10 -2.9762818231104755E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749535.8701019287 -3357650.9218826294 -1152096.225692749</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067893535951099E11 1.64298956713318E11 7.1821240629317E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362356190897137E8 -2.4254848308391437E7 -3.451930727317519E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.1390537592348073 0.07666977553039397 -0.4335261122711138 0.8870405332012067</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+     
+    </time>
+    <time value="52308.0">
+        <object id="MoonCentricInertial">
+            <pos>2.235380084100952E8 2.7297955758091736E8 9.366627213834E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476649042156152 -0.1988877921272147 0.8950389425434727 0.3900815037591953</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6151646366519612E8 3.193579877498242E8 1.0957989841880657E8</pos>
+            <quat>-0.1390536492891721 0.07666997563417857 -0.4335273904472535 0.8870399084526089</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.148563406092717E-5 -7.426229623871448E-4 -0.05191513353415622 0.9986512222196412</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989425448630078E11 -6.860054677725579E10 -2.9762828550751698E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749526.059967041 -3357659.0072784424 -1152098.7326316833</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067891668080711E11 1.6429897135840536E11 7.182124785065363E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362356730603355E8 -2.425483874414007E7 -3.451930328175858E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.1390536492891721 0.07666997563417857 -0.4335273904472535 0.8870399084526089</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52309.0">
+        <object id="MoonCentricInertial">
+            <pos>2.235372108393402E8 2.729802149266205E8 9.366647595323563E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.0847667553582576 -0.19888768028951942 0.8950384232227808 0.39008269478402297</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6151553058949748E8 3.193587567766439E8 1.0958013686125816E8</pos>
+            <quat>-0.13905353934328035 0.07667017573773825 -0.433528668622095 0.8870392837023651</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.151271217938203E-5 -7.426207215412855E-4 -0.05195154490667386 0.9986493286997494</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989424015044826E11 -6.860057058146359E10 -2.9762838870397476E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749516.2498321533 -3357667.092651367 -1152101.2395591736</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067889800210162E11 1.642989860034906E11 7.182125507198936E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362357270309544E8 -2.425482917988858E7 -3.451929929034189E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905353934328035 0.07667017573773825 -0.433528668622095 0.8870392837023651</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52310.0">
+        <object id="MoonCentricInertial">
+            <pos>2.235364132668457E8 2.729808722701187E8 9.366667976738358E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476702029475923 -0.19888756845149058 0.8950379039005901 0.39008388580796244</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6151459751176378E8 3.1935952580088407E8 1.0958037530283503E8</pos>
+            <quat>-0.13905342939714121 0.07667037584107633 -0.43352994679558504 0.8870386589504989</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.153979019908944E-5 -7.426184797095005E-4 -0.05198795618723442 0.9986474338534709</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.298942258145906E11 -6.8600594385668724E10 -2.9762849190042095E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749506.4396362305 -3357675.178009033 -1152103.7464828491</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067887932339459E11 1.642990006485739E11 7.18212622933242E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836235781001573E8 -2.4254819615636982E7 -3.451929529892517E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905342939714121 0.07667037584107633 -0.43352994679558504 0.8870386589504989</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52311.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2353561569256592E8 2.7298152961146545E8 9.366688358079147E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.0847672852311567 -0.19888745661308938 0.8950373845767232 0.39008507683142046</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.615136644319415E8 3.193602948226072E8 1.0958061374354613E8</pos>
+            <quat>-0.1390533194507435 0.07667057594419466 -0.4335312249678096 0.8870380341969702</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.156686815420126E-5 -7.426162368889657E-4 -0.0520243674215776 0.9986455376784247</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989421147872786E11 -6.860061818987116E10 -2.9762859509685547E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749496.6294555664 -3357683.2633285522 -1152106.2533950806</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067886064468596E11 1.6429901529365518E11 7.182126951465819E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836235834972189E8 -2.425481005138527E7 -3.451929130750838E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.1390533194507435 0.07667057594419466 -0.4335312249678096 0.8870380341969702</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52312.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2353481811653137E8 2.729821869506378E8 9.366708739344788E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476755016735965 -0.1988873447743543 0.8950368652513573 0.3900862678539904</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6151273135006633E8 3.193610638417866E8 1.0958085218337804E8</pos>
+            <quat>-0.13905320950409014 0.07667077604707996 -0.4335325031387211 0.8870374094418031</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.159394602742689E-5 -7.426139930811069E-4 -0.05206077858674979 0.998643640175806</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989419714286E11 -6.860064199407093E10 -2.976286982932783E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749486.819229126 -3357691.348625183 -1152108.7603034973</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067884196597574E11 1.6429902993873447E11 7.182127673599129E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836235888942803E8 -2.4254800487133447E7 -3.451928731609153E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905320950409014 0.07667077604707996 -0.4335325031387211 0.8870374094418031</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52313.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2353402050665283E8 2.729828443140793E8 9.366729121356201E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476781511409859 -0.19888723293075553 0.8950363459034583 0.39008745892391145</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonL2Rotating">
+            <pos>2.615117982285972E8 3.1936183288935834E8 1.0958109063193473E8</pos>
+            <quat>-0.1390530995527606 0.07667097615779624 -0.43353378135974197 0.8870367846598607</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.162102380195236E-5 -7.426117482873235E-4 -0.0520971896598421 0.9986417413468092</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989418280641028E11 -6.860066579922573E10 -2.976288014938415E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749477.008621216 -3357699.4342193604 -1152111.267299652</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067882328651242E11 1.64299044584401E11 7.182128395761404E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362359429155856E8 -2.4254790922496706E7 -3.451928332451405E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.1390530995527606 0.07667097615779624 -0.43353378135974197 0.8870367846598607</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52314.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2353322292710876E8 2.7298350164888763E8 9.366749502473068E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476808005013851 -0.19888712109125656 0.8950358265746512 0.3900886499457222</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+     
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6151086514261624E8 3.1936260190343225E8 1.0958132907002616E8</pos>
+            <quat>-0.1390529896056046 0.07667117626023945 -0.43353505952801596 0.8870361599014184</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.16481015117021E-5 -7.426095025048024E-4 -0.052133600686549396 0.9986398411890512</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989416847053223E11 -6.860068960342012E10 -2.9762890469024113E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749467.1983337402 -3357707.5194778442 -1152113.7741851807</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067880460779901E11 1.642990592294763E11 7.182129117894537E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836235996886195E8 -2.4254781358244654E7 -3.451927933309709E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.1390529896056046 0.07667117626023945 -0.43353505952801596 0.8870361599014184</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52315.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2353242534579468E8 2.729841589815445E8 9.36676988351593E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476834498580312 -0.19888700925150096 0.8950353072446996 0.3900898409658308</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6150993205456454E8 3.193633709149892E8 1.095815675072518E8</pos>
+            <quat>-0.13905287965819074 0.07667137636246052 -0.43353633769500965 0.8870355351413207</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.167517913950189E-5 -7.426072557349627E-4 -0.052170011643962816 0.998637939703727</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989415413464908E11 -6.860071340761185E10 -2.9762900788662918E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749457.3880615234 -3357715.604675293 -1152116.2810592651</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067878592908401E11 1.6429907387454956E11 7.182129840027586E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236050856804E8 -2.4254771793992493E7 -3.45192753416801E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905287965819074 0.07667137636246052 -0.43353633769500965 0.8870355351413207</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52316.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2353162776271057E8 2.729848163120117E8 9.366790264484406E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476860992145395 -0.19888689741133445 0.8950347879128948 0.3900910319858652</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6150899896444213E8 3.193641399239844E8 1.095818059436072E8</pos>
+            <quat>-0.13905276971052655 0.07667157646446505 -0.4335376158606932 0.8870349103795808</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.170225666856027E-5 -7.426050079792062E-4 -0.05220642250912897 0.9986360368920362</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989413979876086E11 -6.860073721180089E10 -2.9762911108300556E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749447.577758789 -3357723.6898727417 -1152118.7879257202</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.306787672503674E11 1.6429908851962088E11 7.182130562160545E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.83623610482741E8 -2.4254762229740217E7 -3.451927135026303E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905276971052655 0.07667157646446505 -0.4335376158606932 0.8870349103795808</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52317.0">
+        <object id="MoonCentricInertial">
+            <pos>2.235308301778717E8 2.7298547364030457E8 9.366810645378113E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.0847688748569103 -0.19888678557083428 0.8950342685795909 0.3900922230050112</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.615080658722668E8 3.1936490893043584E8 1.0958204437908788E8</pos>
+            <quat>-0.13905265976260756 0.07667177656624174 -0.4335388940250641 0.8870342856162017</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.172933413255733E-5 -7.426027592347284E-4 -0.05224283332778705 0.9986341327515881</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989412546286752E11 -6.860076101598724E10 -2.9762921427937035E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749437.767440796 -3357731.7750320435 -1152121.2947807312</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067874857164926E11 1.6429910316469012E11 7.182131284293417E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362361587980145E8 -2.4254752665487826E7 -3.4519267358845904E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+     
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905265976260756 0.07667177656624174 -0.4335388940250641 0.8870342856162017</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52318.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2353003259126282E8 2.729861309664078E8 9.366831026197052E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.0847691397922173 -0.19888667372998103 0.8950337492446995 0.3900934140234722</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6150713277802074E8 3.1936567793432564E8 1.0958228281369387E8</pos>
+            <quat>-0.13905254981443585 0.07667197666779746 -0.43354017218812463 0.8870336608511807</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.175641149767741E-5 -7.426005095043455E-4 -0.05227924405409004 0.9986322272847806</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989411112696909E11 -6.8600784820170906E10 -2.976293174757235E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749427.957092285 -3357739.860183716 -1152123.8016319275</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.306787298929295E11 1.642991178097574E11 7.182132006426204E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236212768616E8 -2.4254743101235326E7 -3.451926336742875E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905254981443585 0.07667197666779746 -0.43354017218812463 0.8870336608511807</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52319.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2352923500289917E8 2.729867882903671E8 9.366851406941605E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476940472742019 -0.19888656188875545 0.8950332299081318 0.3900946050414522</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.615061996817218E8 3.193664469357074E8 1.095825212474296E8</pos>
+            <quat>-0.13905243986600463 0.07667217676912136 -0.4335414503498962 0.8870330360845105</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.17834887977832E-5 -7.425982587852385E-4 -0.05231565473379922 0.9986303204892192</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989409679106557E11 -6.860080862435192E10 -2.9762942067206493E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749418.1467437744 -3357747.945274353 -1152126.3084716797</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.306787112142082E11 1.6429913245482266E11 7.182132728558897E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236266739215E8 -2.4254733536982715E7 -3.4519259376011506E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905243986600463 0.07667217676912136 -0.4335414503498962 0.8870330360845105</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52320.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2352843738067627E8 2.729874456385727E8 9.36687178843193E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476966967306866 -0.19888645004270447 0.8950327105492079 0.39009579610637646</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.61505266545811E8 3.1936721596545464E8 1.095827596898901E8</pos>
+            <quat>-0.13905232991290142 0.07667237687828513 -0.4335427285617739 0.8870324112910645</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.181056601583391E-5 -7.425960070788242E-4 -0.052352065343961335 0.9986284123661041</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989408245458017E11 -6.860083242948796E10 -2.9762952387254684E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749408.3359375 -3357756.030693054 -1152128.8154029846</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067869253473373E11 1.6429914710047513E11 7.182133450720564E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236320711985E8 -2.4254723972345177E7 -3.451925538443363E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905232991290142 0.07667237687828513 -0.4335427285617739 0.8870324112910645</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52321.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2352763978878784E8 2.729881029581604E8 9.36689216902771E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08476993460797289 -0.19888633820077278 0.8950321912094649 0.3900969871229868</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6150433344538844E8 3.19367984961722E8 1.0958299812188533E8</pos>
+            <quat>-0.13905221996396866 0.07667257697917144 -0.43354400672091686 0.8870317865211138</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.183764313488032E-5 -7.425937543865162E-4 -0.05238847586163439 0.9986265029166395</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989406811866644E11 -6.8600856233663574E10 -2.9762962706886513E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749398.525527954 -3357764.115753174 -1152131.3222236633</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067867385600922E11 1.6429916174553638E11 7.182134172853084E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236374682581E8 -2.425471440809234E7 -3.45192513930163E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905221996396866 0.07667257697917144 -0.43354400672091686 0.8870317865211138</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+     
+    </time>
+    <time value="52322.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2352684219514465E8 2.7298876027557373E8 9.366912549548721E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08477019954272785 -0.1988862263584881 0.8950316718681341 0.3900981781389124</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6150340034291297E8 3.193687539554455E8 1.0958323655300586E8</pos>
+            <quat>-0.13905211001478152 0.0766727770798296 -0.43354528487874694 0.8870311617495239</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.186472018873232E-5 -7.42591500705496E-4 -0.05242488633254603 0.9986245921384268</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989405378274762E11 -6.860088003783654E10 -2.9762973026517178E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749388.7151031494 -3357772.2007751465 -1152133.8290367126</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067865517728313E11 1.6429917639059567E11 7.182134894985516E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236428653176E8 -2.4254704843839385E7 -3.451924740159891E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905211001478152 0.0766727770798296 -0.43354528487874694 0.8870311617495239</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+    
+    </time>
+    <time value="52323.0">
+        <object id="MoonCentricInertial">
+            <pos>2.235260445997467E8 2.729894175908127E8 9.366932929995346E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08477046447719778 -0.19888611451590815 0.8950311525254823 0.3900993691535427</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonL2Rotating">
+            <pos>2.615024672383846E8 3.193695229466253E8 1.0958347498325615E8</pos>
+            <quat>-0.13905200006534008 0.07667297718026529 -0.4335465630352642 0.8870305369762943</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.189179716054038E-5 -7.425892460371708E-4 -0.05246129673377652 0.9986226800326677</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.298940394468237E11 -6.8600903842006805E10 -2.976298334614668E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749378.904647827 -3357780.285774231 -1152136.3358383179</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067863649855542E11 1.6429919103565286E11 7.182135617117865E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236482623768E8 -2.425469527958632E7 -3.451924341018144E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905200006534008 0.07667297718026529 -0.4335465630352642 0.8870305369762943</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+    </time>
+    <time value="52324.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2352524700257874E8 2.7299007490387726E8 9.366953310367966E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08477072941169926 -0.19888600267289805 0.895030633180888 0.39010056016830214</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.615015341317855E8 3.193702919352612E8 1.0958371341264063E8</pos>
+            <quat>-0.13905189011564714 0.0766731772804846 -0.4335478411904835 0.8870299122014166</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.191887403310601E-5 -7.425869903829693E-4 -0.05249770704238402 0.9986207666005682</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.298940251108947E11 -6.86009276461744E10 -2.9762993665775024E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749369.0941619873 -3357788.3707580566 -1152138.842628479</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067861781982613E11 1.6429920568070816E11 7.182136339250122E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236536594357E8 -2.4254685715333134E7 -3.451923941876394E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905189011564714 0.0766731772804846 -0.4335478411904835 0.8870299122014166</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52325.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2352444940364075E8 2.729907322147598E8 9.366973690665817E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08477099434591578 -0.19888589082959285 0.8950301138349721 0.39010175118176643</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+      
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6150060102311566E8 3.193710609213444E8 1.0958395184115042E8</pos>
+            <quat>-0.13905178016569977 0.07667337738048094 -0.4335491193443987 0.8870292874248947</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.194595084055476E-5 -7.425847337400526E-4 -0.05253411730407362 0.9986188518397268</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989401077496059E11 -6.860095145033929E10 -2.9763003985402195E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749359.2836761475 -3357796.4557113647 -1152141.3494186401</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067859914109528E11 1.6429922032576138E11 7.182137061382294E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.8362365905649453E8 -2.4254676151079837E7 -3.4519235427346386E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905178016569977 0.07667337738048094 -0.4335491193443987 0.8870292874248947</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+    <time value="52326.0">
+        <object id="MoonCentricInertial">
+            <pos>2.23523651802948E8 2.729913895234909E8 9.366994070888901E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.08477125928007347 -0.19888577898589593 0.8950295944872911 0.39010294219495306</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6149966791239294E8 3.193718299049106E8 1.0958419026878549E8</pos>
+            <quat>-0.13905167021549084 0.07667357748024384 -0.43355039749701857 0.8870286626467269</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.19730275486338E-5 -7.425824761112707E-4 -0.052570527473043506 0.9986169357525516</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989399643902136E11 -6.860097525450152E10 -2.9763014305028214E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749349.4731445312 -3357804.5406188965 -1152143.8561935425</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067858046236282E11 1.6429923497081265E11 7.182137783514378E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236644535531E8 -2.4254666586826436E7 -3.451923143592876E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+     
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905167021549084 0.07667357748024384 -0.43355039749701857 0.8870286626467269</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+    </time>
+    <time value="52327.0">
+        <object id="MoonCentricInertial">
+            <pos>2.2352285420048523E8 2.7299204683000946E8 9.36701445103836E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MoonCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.0847715242140365 -0.19888566714186537 0.8950290751381116 0.390104133207251</quat>
+            <parent>MoonCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+       
+        <object id="EarthMoonL2Rotating">
+            <pos>2.6149873479959947E8 3.193725988858884E8 1.0958442869555925E8</pos>
+            <quat>-0.13905156026504298 0.0766737775798046 -0.43355167564831143 0.8870280378669216</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SolarSystemBarycentricInertial">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent></parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-6.200010419148502E-5 -7.425802174937801E-4 -0.052606937595020886 0.9986150183366368</quat>
+            <parent>EarthCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthMoonBarycentricInertial">
+            <pos>-1.2989398210307706E11 -6.860099905866106E10 -2.976302462465306E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="EarthCentricInertial">
+            <pos>-2749339.662612915 -3357812.625526428 -1152146.3629570007</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricInertial">
+            <pos>1.3067856178362878E11 1.642992496158619E11 7.182138505646373E10</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="SunCentricInertial">
+            <pos>4.836236698506115E8 -2.4254657022572912E7 -3.451922744451109E7</pos>
+            <quat>0.0 0.0 0.0 1.0</quat>
+            <parent>SolarSystemBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        <object id="MarsCentricFixed">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>0.0 0.0 1.0 0.0</quat>
+            <parent>MarsCentricInertial</parent>
+            <vis>1</vis>
+        </object>
+    
+        <object id="EarthMoonBarycentricRotating">
+            <pos>0.0 0.0 0.0</pos>
+            <quat>-0.13905156026504298 0.0766737775798046 -0.43355167564831143 0.8870280378669216</quat>
+            <parent>EarthMoonBarycentricInertial</parent>
+            <vis>1</vis>
+        </object>
+        
+    </time>
+</mpc>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObjectInfo version="1.0">
+    <OriginalFileInformation>
+        <File file="roverReflect.obj" type="Geometry" creationDate="2023-04-14T20:03:33.0144743Z" lastWriteDate="2023-04-14T20:02:52.3559345Z" SHA1Hash="082d2bd2c4194117cc2ba6aa16a42962f441018b" />
+        <File file="roverReflect.mtl" type="Materials" creationDate="2023-04-14T20:03:23.8924748Z" lastWriteDate="2023-04-14T20:02:33.4832087Z" SHA1Hash="373e73f3974790ef09fd1bec996c8d7e06cbe91e" />
+    </OriginalFileInformation>
+    <Materials>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\roverReflect.mtl_Tires" name="Tires" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.010022 0.00919 0.009381 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.03" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\roverReflect.mtl_Metal" name="Metal" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="1 1 1 1" />
+                <Color type="_Ambient" value="0.102362 0.102362 0.102362 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.7968395" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\roverReflect.mtl_Metal-Grey" name="Metal-Grey" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.226583 0.226583 0.226583 1" />
+                <Color type="_Ambient" value="0.645669 0.645669 0.645669 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.4878185" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\roverReflect.mtl_Bolts" name="Bolts" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0.147314 0.147314 0.147314 1" />
+                <Color type="_Ambient" value="0.149606 0.149606 0.149606 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.5635951" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\roverReflect.mtl_Black" name="Black" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="0 0 0 1" />
+                <Color type="_Ambient" value="1 1 1 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.225" />
+            </Attributes>
+        </Material>
+        <Material id="C:\Users\yorka\OneDrive\Documents\GitHub\SEE-Sim-Smackdown\Graphics\DON-Simulation-Directory\models\roverReflect.mtl_Reflect-Panel" name="Reflect-Panel" shaderName="Specular">
+            <Attributes>
+                <Transparency value="1" />
+                <Color type="_Color" value="1 0.934831 0.906737 1" />
+                <Color type="_Ambient" value="0.307087 0.307087 0.307087 1" />
+                <Color type="_SpecColor" value="0.5 0.5 0.5 1" />
+                <Scalar type="_Shininess" value="0.9" />
+            </Attributes>
+        </Material>
+    </Materials>
+    <Meshes totalTriangles="88392" totalVertices="198890">
+        <Mesh name="roverReflect.obj_Mesh" triangles="88392" vertices="198890">
+            <SubMeshes>
+                <SubMesh triangles="35797" vertices="64997">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                    </SubMeshMaterials>
+                </SubMesh>
+                <SubMesh triangles="23714" vertices="64999">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="0" />
+                        <SubMeshMaterial index="1" />
+                    </SubMeshMaterials>
+                </SubMesh>
+                <SubMesh triangles="26805" vertices="64998">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="1" />
+                        <SubMeshMaterial index="2" />
+                        <SubMeshMaterial index="3" />
+                    </SubMeshMaterials>
+                </SubMesh>
+                <SubMesh triangles="2076" vertices="3896">
+                    <SubMeshMaterials>
+                        <SubMeshMaterial index="3" />
+                        <SubMeshMaterial index="4" />
+                        <SubMeshMaterial index="5" />
+                    </SubMeshMaterials>
+                </SubMesh>
+            </SubMeshes>
+        </Mesh>
+    </Meshes>
+</ObjectInfo>
