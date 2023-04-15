@@ -14,6 +14,9 @@ import skf.coder.HLAunicodeStringCoder;
 import skf.model.object.annotations.Attribute;
 import skf.model.object.annotations.ObjectClass;
 
+/*
+* Created by Louis
+*/
 @ObjectClass(name= "PhysicalEntity.SolarPanel")
 public class SolarPanelState extends SimulationEntityState {
     final static Logger logger = Logger.getLogger(TowerState.class);
