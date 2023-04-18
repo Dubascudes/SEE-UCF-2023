@@ -24,6 +24,7 @@ public class ReflectorRoverFederate extends SimulationEntityFederate {
     private ReflectorLocationResponse reflectorLocationResponse;
     private ReflectorInteractionRequest reflectorInteractionRequest;
     private ReflectorInteractionResponse reflectorInteractionResponse;
+    private ChargeConnectResponse chargeConnectResponse;
 
     public ReflectorRoverFederate(SEEAbstractFederateAmbassador ambassador, Configuration configuration) {
         super(ambassador, configuration);
@@ -93,7 +94,12 @@ public class ReflectorRoverFederate extends SimulationEntityFederate {
             ReflectorInteractionResponse response = (ReflectorInteractionResponse) interaction;
             logger.debug("Received Reflector Interaction Response " + response.getSunlight());
             roverExecution.receiveReflectorInteractionResponse(response.getSunlight());
-        }
+        }else if (interaction instanceof ChargeConnectResponse){
+			chargeConnectResponse.setCr(((ChargeConnectResponse) interaction).getCr());
+			chargeConnectResponse.setFromHLAId(interaction.getFromHLAId());
+			chargeConnectResponse.setToHLAId(interaction.getToHLAId());
+			super.updateInteraction(chargeConnectResponse);
+		}
     }
 
     @Override
@@ -122,7 +128,13 @@ public class ReflectorRoverFederate extends SimulationEntityFederate {
                     logger.debug("Sending Reflector Interaction Request " + reflectorInteractionRequest.getFromHLAId());
                     super.updateInteraction(reflectorInteractionRequest);
                     execution.interactions.remove(interaction);
-                }
+                }else if(interaction instanceof ChargeConnectRequest){
+                	 logger.debug("Sending Reflector Connect Request ");
+        			((ReflectorRoverExecution) execution).receiveChargeConnectRequest(((ChargeConnectRequest) arg).getFromHLAId(), ((ChargeConnectRequest) arg).getLocation());
+        		} else if (interaction instanceof ChargeDisconnectRequest){
+        			logger.debug("Sending Reflector Connect Request ");
+        			((ReflectorRoverExecution) execution).receiveChargeDisconnectRequest(((ChargeDisconnectRequest) arg).getFromHLAId());
+        		}
             }
 
         }catch (Exception e) {
