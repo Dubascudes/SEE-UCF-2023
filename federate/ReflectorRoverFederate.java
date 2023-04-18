@@ -130,10 +130,10 @@ public class ReflectorRoverFederate extends SimulationEntityFederate {
                     execution.interactions.remove(interaction);
                 }else if(interaction instanceof ChargeConnectRequest){
                 	 logger.debug("Sending Reflector Connect Request ");
-        			((ReflectorRoverExecution) execution).receiveChargeConnectRequest(((ChargeConnectRequest) arg).getFromHLAId(), ((ChargeConnectRequest) arg).getLocation());
+        			((ReflectorRoverExecution) execution).receiveChargeConnectRequest(((ChargeConnectRequest) interaction).getFromHLAId(), ((ChargeConnectRequest) interaction).getLocation());
         		} else if (interaction instanceof ChargeDisconnectRequest){
         			logger.debug("Sending Reflector Connect Request ");
-        			((ReflectorRoverExecution) execution).receiveChargeDisconnectRequest(((ChargeDisconnectRequest) arg).getFromHLAId());
+        			((ReflectorRoverExecution) execution).receiveChargeDisconnectRequest(((ChargeDisconnectRequest) interaction).getFromHLAId());
         		}
             }
 
