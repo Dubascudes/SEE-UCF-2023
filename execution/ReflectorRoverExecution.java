@@ -114,6 +114,14 @@ public class ReflectorRoverExecution extends ChargeableEntityExecution {
         ReflectorInteractionRequest interaction = new ReflectorInteractionRequest(simulationEntityState.identifier);
         interactions.add(interaction);
     }
+    public void sendChargeConnectRequest() {
+        ChargeConnectRequest interaction = new ChargeConnectRequest(simulationEntityState.identifier);
+        interactions.add(interaction);
+    }
+    public void sendChargeDisconnectRequest() {
+        ChargeDisconnectRequest interaction = new ChargeDisconnectRequest(simulationEntityState.identifier);
+        interactions.add(interaction);
+    }
 
     public SimulationEntityState.GridIndex getLocation() {
         return location;
